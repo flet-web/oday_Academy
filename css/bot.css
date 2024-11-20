@@ -1,0 +1,149 @@
+
+        /* تنسيق زر الشات */
+        #startBotWrapper {
+            position: fixed;
+            left:10px; /* المسافة من اليسار */
+            bottom: 20px; /* المسافة من الأسفل */
+            z-index: 9999;
+        }
+
+        #startBotBtn {
+            background-color:#ffdd00; /* لون خلفية الزر */
+            color: white;
+            padding:8px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size:25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        /* دائرة حمراء تظهر فوق زر الشات عندما توجد رسالة جديدة */
+        .message-indicator {
+            position: absolute;
+            top: -5px;
+            left:32px;
+            background-color: rgb(218, 0, 0);
+            color: white;
+            font-size: 14px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            display: none; /* إخفاء الدائرة في البداية */
+            z-index: 100;
+        }
+
+        /* تنسيق واجهة البوت */
+        .chat-box {
+            display: none;
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #20013d;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+            opacity: 0;
+            animation: openChatBox 6s forwards;
+            
+        }
+
+        @keyframes openChatBox {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* تنسيق محتوى الرد */
+        .chat-output {
+            background-color: #240053;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: left;
+            min-height: 50px;
+            font-size:18px;
+        }
+
+        /* تنسيق الأزرار */
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            opacity: 0;
+            animation: showButtons 7s forwards 1s;
+        }
+
+        @keyframes showButtons {
+            0% {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* إخفاء الأزرار في البداية وإظهارها تدريجيًا */
+        .botButton {
+            /* opacity: 0; */
+            animation: showSingleButton 0.5s forwards;
+            border:none;
+            padding: 10px;
+            background-color: #4b00ad; /* لون زر جميل */
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 90%;
+            margin: auto;
+            transition:0.7s;
+           
+        }
+
+        /* تغيير اللون عند التمرير على الزر */
+        .botButton:hover {
+            background-color:#3c0188;
+            width: 100%;
+        }
+
+        .botButton:nth-child(1) {
+            animation-delay: 1s;
+        }
+
+        .botButton:nth-child(2) {
+            animation-delay: 1.2s;
+        }
+
+        .botButton:nth-child(3) {
+            animation-delay: 1.4s;
+        }
+
+        .botButton:nth-child(4) {
+            animation-delay: 1.6s;
+        }
+
+        .botButton:nth-child(5) {
+            animation-delay: 1.8s;
+        }
+
+        /* تنسيق زر الإغلاق */
+        #closeBotBtn {
+            position: absolute;
+            top:-2px;
+            right:3px;
+            cursor: pointer;
+            color: #e00025;
+
+        }
+      

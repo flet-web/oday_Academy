@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>  عدي | Cyber </title>
+        <meta property="og:title" content=" عدي | Cyber ">
+        <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS09I1uToQC7XUFFFIeDdUz_5N3vQVfCP6p2-UrD4DqwHtjFMB-2mJwebjk5IFXX2rSPc8&usqp=CAU"> <!-- رابط الصورة -->
+        <meta property="og:url" content="https://www.Oday_Cyber.com"> <!-- رابط الموقع -->
+        <meta property="og:type" content="Oday_Cyber">
+        <meta name="og:description" content="موقع يقدم كورسات احترافية في مجال الأمن السيبراني بأسعار رخيصة. تعلم كيفية حماية نفسك وبياناتك من الهجمات الإلكترونية على يد المهندس عدي. احصل على كورسات مهنية تناسب جميع المستويات بمدربين خبراء في المجال.">
+        <meta name="keywords" content="كورسات أمن سيبراني, كورسات بأسعار رخيصة, تعلم الأمن السيبراني, حماية البيانات, مهندس عدي عبدالرزاق ,  منصة البكري , منصة ابو رزاق الشمري , موقع عدي الوهبي , دورات تدريبية في الأمن السيبراني">
+
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/bot.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/FF.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/FF.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/FF.png">
+        <link rel="apple-touch-icon-precomposed" href="images/FF.png">
+        <link rel="shortcut icon" href="images/FF.png">
+
+
+
+
+           
+
+    </head>
+    
+    <body>
+        <div class="confetti"></div>
+        <!-- <div class="overlay" id="overlay">
+            <div class="overlay-content">
+                <p>  لا تلعب بشيء لا يعنيك ادرس فقط هذي مدرستك لا تعبث فيه  </p>
+                <button class="close-btn" onclick="closeOverlay()">إغلاق</button>
+            </div>
+        </div> -->
+    
+        <!-- نافذة التحذير -->
+<div id="warning-popup" class="popup">
+    <div class="popup-content">
+        <img src="images/FF.png" style="width: 100px;">
+        <h3>تحذير هام</h3>
+        <p>استخدام الدورات التدريبية في مجال الأمن السيبراني لأغراض غير قانونية أو ضارة يعد خرقًا للقانون وقد يؤدي إلى مسؤولية قانونية جسيمة. منصة "عدي عبد الرزاق" لا تتحمل بأي حال من الأحوال مسؤولية أي ضرر أو عواقب قد تنجم عن استخدام هذه الدورات في أي نشاط غير مشروع أو ضار.</p>
+        <button id="accept-btn">موافق</button>
+    </div>
+</div>
+
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container" style=" width:98%;">
+                    <a href="#" class="brand">
+                        <P style="color: #fbff02; font-weight: bold; font-size: 22px;">  ODAY_ <span style="color: #ffffff;  font-weight: bold; font-size: 20px;"> Cyber </span></P>
+                    </a>
+                    <!-- Navigation button, visible on small resolution -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <i class="icon-menu"></i>
+                    </button>
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation">
+                            <li class="active"><a href="#home">  الصفحة الرئسية </a></li>
+                            <li><a href="#service"> كورسات مجانية   </a></li>
+                            <li><a href="#portfolio"> الكورسات المدفوعة </a></li>
+                            <li><a href="#clients"> أراء </a></li>
+                            <li><a href="#contact">   التواصل </a></li>
+                        </ul>
+                    </div>
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+        <!-- Start home section -->
+        <div id="home">
+            <!-- Start cSlider -->
+            <div id="da-slider" class="da-slider">
+                <div class="triangle"></div>
+                <!-- mask elemet use for masking background image -->
+                <div class="mask">
+                    <img src="images/Slider.jpg" alt="" style="width: 100%;">
+                </div>
+                <!-- All slides centred in container element -->
+                <div class="container">
+                    <!-- Start first slide -->
+                    <div class="da-slide">
+                        <h2 class="fittext2" style="color: #ffee00;">  مرحبا بكم في منصتي  </h2>
+                        <h4 style="color: #ffee00; font-weight: bold; font-size: 22px;"> الأمن السيبراني </h4>
+                        <p style=" font-weight: bold; font-size: 18px;">   في هذي المنصة سنوفر لك جميع الكورسات المجانية و المدفوعة في الأمن السيبراني في اختبار الاختراق وحماية المعلومات و البيانات بكورسات عملية بادق التفاصيل </p>
+                        <a style="background-color: #c300ff57; color: #ffffff; border: 1px solid #ffffff; border-radius: 10px;" href="https://t.me/Oday_Cyber" class="da-link button">  أشتراك  </a>
+                        
+                    </div>
+                    <!-- End first slide -->
+                    <!-- Start second slide -->
+                    <div class="da-slide">
+                        <h2 style="color: #ffee00; font-weight: bold; font-size: 30px;"> منصتي بين يديك </h2>
+                        <h4 style="color: #ffee00; font-weight: bold; font-size: 22px;">  عدي عبدالرزاق </h4>
+                        <p style="font-weight: bold; font-size: 18px;"> ساتيح لك كورسات مجانية و مدفوعة بأسعار خصم %70 من الكورسات المدفوعة  </p>
+                        <a style="background-color: #c300ff57; color: #ffffff; border: 1px solid #ffffff; border-radius: 10px;" href="https://t.me/Oday_Cyber" class="da-link button"> أشتراك </a>
+                      
+                    </div>
+              
+                    
+                    <!-- Start third slide -->
+                    <!-- Start cSlide navigation arrows -->
+                    <div class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </div>
+                    <!-- End cSlide navigation arrows -->
+                </div>
+            </div>
+        </div>
+        <!-- End home section -->
+        <!-- Service section start -->
+        <div class="section primary-section" id="service">
+          
+            <div class="container">
+                <p class="testimonial-text" id="testimony" style="color: gold; text-align: justify; direction: rtl; font-family: 'Arial', sans-serif;">
+                    عن عبد الله بن مسعود رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: "من سلك طريقًا يلتمس فيه علمًا سهل الله له به طريقًا إلى الجنة" (رواه مسلم).
+                </p>
+                <!-- Start title section -->
+                <div class="title">
+                  
+                    <h1 style="font-weight: bold;"> كورسات مجانية </h1>
+                    <!-- Section's title goes here -->
+                    <p style="font-weight: bold;">  متاح لك الكورسات المجانية على قنواتي التالية يمكنك دراسة هذي الكورسات مجاني من ضمن المنصة  <span style="color: #ff0000;"> ملاحظة؟ </span>   لا يمكنك تحميل الكورسات خارج كروب كورسات من منصة تلجرام  </p>
+                    <!--Simple description for section goes here. -->
+                </div>
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="centered service">
+                            <a href="https://youtube.com/@-axt8?si=-11IioVWlY60-Abc" style="color: #fde400;">
+                                <i class="fab fa-youtube  zoom-in zoom-in0 " style="font-size:50PX; cursor: pointer;"></i>
+                            </a>
+                            <h3> قناة يوتيوب </h3>
+                            <p> شرح الكورسات النظرية في الختراق و نشر كورسات برمجة تطبيقات و مواقع اكترونية </p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <a href="https://t.me/CberSy" style="color: #fde400;">
+                                <i class="fab fa-telegram-plane  zoom-in  zoom-in1" style="font-size:50PX; cursor: pointer;"></i>
+                            </a>
+                            <h3> قناة التلجرام </h3>
+                            <p> نشر الكورسات العملية في كروب كورسات و نشر علانات حول الكورسات الجديدة في كروب الأمن السيبراني  </p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <a href="https://whatsapp.com/channel/0029VajXdVgB4hdaL22VQO0U" style="color: #fde400;">
+                                <i class="fab fa-whatsapp zoom-in zoom-in2 " style="font-size:50PX; cursor: pointer;"></i>
+                            </a>
+                            <h3> قناة  الواتس اب </h3>
+                            <p> لدينا كروب على  الواتس اب لنشر الأعلانات على الكورسات القادمة  ولكن لن ننشر اي كورس ولكن يضمن نشر اعلان عن الكورسات التي ستتاح في المنصة الخاصة بنا </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service section end -->
+        <!-- Portfolio section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1 style="color: #ffffff; font-weight: bold;"> الكورسات المدفوعة </h1>
+                    <p style="color: #ffee00; font-weight: 400;"> لدينا كروب خاص في الكورسات المدفوعة ويمكنك دراسة الكورسات ضمن الكروب الخاص في المشتركين وتتعلم المهارات الجديدة في الختراق  والحمايات و تعليم اساليب الفريق الاحمر و الازرق  بشكل عملي وعلى الارض الواقع بشكل حقيقي   <span style="color: #ff0000;" >  ملاحظة؟ </span> يمكنك تحميل  الكورسات التي تقوم في شرائه من المنصة  </p>
+                </div>
+                <ul class="nav nav-pills">
+                    <li class="filter" data-filter="all">
+                        <a href="#noAction" id="noAction"> الكل  </a>
+                    </li>
+                  
+                </ul>
+                <!-- Start details for portfolio project 1 -->
+                <div id="single-project">
+                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/r.png" alt="project 1" />
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>  Ransomware | فايروس  تشفير ملفات الضحية والحصول على المفتح فك التشفير</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                 
+                                    
+                                    <div>
+                                        
+                                    </div>
+                                </div>
+                                <p>   إذا كنت مهتمًا بتعلم كيفية بناء رانسوم وير، يمكن أن يكون الكورس المتعلق بذلك عبارة عن دورة تعليمية تهدف إلى إكساب الطلاب مهارات فهم آلية عمل البرمجيات الخبيثة من نوع Ransomware وطريقة بناءها في لغة البرمجة بايثون. شفر جميع ملفات الضحية و احصل على المفتاح  </p>
+
+                                
+                            </div>
+                            <a href="https://t.me/Oday_Cyber" class="buy-button">
+                                <i class="fas fa-shopping-cart"></i> 
+                                <span class="price">$21</span> <!-- عرض السعر بجانب الأيقونة -->
+                            </a>
+                           
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 1 -->
+                    <!-- Start details for portfolio project 2 -->
+                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/re.jfif" alt="project 2">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3> Lockscreen | كورس فايروس  </h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                           
+                                  
+                                </div>
+                                <p>   هل سبق أن تساءلت كيف يتم بناء الفيروسات التي تمنع الوصول إلى النظام وتُظهر شاشة قفل على جهاز الكمبيوتر؟ في هذا الكورس، ستتعلم كيفية تصميم وبرمجة فيروس Lockscreen باستخدام لغة بايثون. هذا الكورس مناسب للمبتدئين في مجال البرمجة وكذلك لأولئك المهتمين بتعلم أساسيات الأمن السيبراني وتطبيقاتها.
+
+                                    فيروس Lockscreen هو نوع من البرمجيات الخبيثة التي تقوم بإغلاق الجهاز أو منع الوصول إلى النظام عن طريق عرض شاشة قفل، دون أن تؤثر على البيانات أو الملفات على جهازك. عادةً ما يُستخدم هذا الفيروس من قبل المهاجمين لابتزاز الضحايا عبر مطالبتهم بدفع فدية مقابل إلغاء القفل.   </p>
+                            </div>
+                             <a href="@Oday_Cyber" class="buy-button">
+                                <i class="fas fa-shopping-cart"></i> 
+                                <span class="price">$7</span> <!-- عرض السعر بجانب الأيقونة -->
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- End details for portfolio project 2 -->
+                    <!-- Start details for portfolio project 3 -->
+                    <!-- <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio03.png" alt="project 3">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                 
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                    <!-- End details for portfolio project 3 -->
+                    <!-- Start details for portfolio project 4 -->
+
+                    <!-- <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio04.png" alt="project 4">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Project for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                  
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+                    <!-- End details for portfolio project 4 -->
+                    <!-- Start details for portfolio project 5 -->
+
+                    <!-- <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio05.png" alt="project 5">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                 
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- End details for portfolio project 5 -->
+                    <!-- Start details for portfolio project 6 -->
+
+                    <!-- <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio06.png" alt="project 6">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                  
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- End details for portfolio project 6 -->
+                    <!-- Start details for portfolio project 7 -->
+
+                    <!-- <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio07.png" alt="project 7">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                  
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- End details for portfolio project 7 -->
+                    <!-- Start details for portfolio project 8 -->
+
+
+                    <!-- <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio08.png" alt="project 8">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- End details for portfolio project 8 -->
+                    <!-- Start details for portfolio project 9 -->
+
+                    <!-- <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio09.png" alt="project 9">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cart"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                   
+                                  
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- End details for portfolio project 9 -->
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/r.png" alt="project 1">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3> Ransomware | كورس فايروس </h3>
+                                <p>    
+                                      <span class="original-price">$70</span> 
+                                      <span class="discounted-price">$21</span>
+                                </p>
+                                <div class="discount-tag">
+                                    خصم 70%
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/re.jfif" alt="project 2">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3> Lockscreen | كورس فايروس </h3>
+                               <p>    
+                                    <span class="original-price">$25</span> 
+                                    <span class="discounted-price">$7</span>
+                              </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <!-- <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio03.png" alt="project 3">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                                </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+                        <!-- <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio04.png" alt="project 4">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                                </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+                        <!-- <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio05.png" alt="project 5">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                                </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+                        <!-- <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio06.png" alt="project 6">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                                </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+                        <!-- <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio07.png" alt="project 7" />
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                               </p>
+                               <div class="discount-tag">
+                                  خصم 70%
+                               </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+                        <!-- <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio08.png" alt="project 8">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                              </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+                        <!-- <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio09.png" alt="project 9">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
+                                    <i class="fas fa-shopping-cart zoom-in " style="color: #ffee00;" title=" شراء الكورس "></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>    
+                                    <span class="original-price">$70</span> 
+                                    <span class="discounted-price">$21</span>
+                              </p>
+                              <div class="discount-tag">
+                                  خصم 70%
+                              </div>
+                                <div class="mask"></div>
+                            </div>
+                        </li> -->
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio section end -->
+        <!-- About us section start -->
+        
+        <!-- About us section end -->
+        <div class="section secondary-section">
+            <!-- <div class="triangle"></div> -->
+            <div class="container centered">
+                <p class="large-text" style="color: #ffffff;">  تساعد هذي المنصة المهتمين بالأمن السيبراني سواء كانو مبتدئين أو محترفين على تطوير قدراتهم ومواكبة أحدث التهديدات و التقنيات </p>
+                <a href="#" class="button" > رجوع للصفحة الأمن السيبراني  </a>
+            </div>
+        </div>
+        <!-- Client section start -->
+        <!-- Client section start -->
+        <div id="clients">
+            <div class="section primary-section">
+                <!-- <div class="triangle"></div> -->
+                <div class="container">
+                    <div class="title">
+                        <h1> أراء المشتركين  في  الكورسات  </h1>
+                        <p>  شكراً لكم على ارائكم و تعاليقكم لي  </p>
+                    </div>
+                    <div class="row">
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p> شكراً لك يامهندس على الكورسات يلي تقدمه في المنصة انا اشتركة في كورس  انشاء الفيروسات و الحماية منه شي جميل وتعلمة شي كنت لااعرف اذا هل شي موجود  اتمنا ان تستمر في النشر وانصح الجميع بالتعلم منك  معك احمد من العراق </p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/FF.png" class="centered" alt="client 1" >
+                                    <strong> أحمد 
+                                        <small>2024/10/8</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p> مش عارفه كيف اشكراك ياخي عدي على كورساتك استفدت منه كثير وتعلمة اشياء منك حلوى شكراً لك  على اسعار كورساتك و الخصومات في المنصة معك امينة من مصر اتمنا ان تستمر أن شاء الله تحقق اهدافك   </p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img  src="images/FF.png" class="centered" alt="client 2" >
+                                    <strong>أمينة
+                                        <small>2024/10/12</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p> اخي عدي شكراً لك على تقديمك لنا هذي الكورسات  المجانية و المدفوعة واسعار كورساتك المدفوعة رخيصة و منافسة اتمنا الاستمرار وان شاءالله بالنجاح والتوفيق  اخوك علي خليل من سورية  </p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/FF.png" class="centered" alt="client 3">
+                                    <strong>علي
+                                        <small>2024/11/2</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="section third-section">
+            <div class="container centered">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3> تحذير هام من المنصة </h3>
+                        </div>
+                        <ul class="client-nav pull-right">
+                            <li id="client-prev"></li>
+                            <li id="client-next"></li>
+                        </ul>
+                    </div>
+        
+                    <!-- شريط الأخبار مع الخلفية -->
+                    <div class="news-ticker-container">
+                        <div class="news-ticker">
+                            <p>
+                                <strong >تحذير:</strong> استخدام الدورات التدريبية في مجال الأمن السيبراني لأغراض غير قانونية أو ضارة يعد خرقًا للقانون وقد يؤدي إلى مسؤولية قانونية . 
+                                <strong>منصة "عدي عبد الرزاق" لا تتحمل بأي حال من الأحوال مسؤولية أي ضرر أو عواقب قد تنجم عن استخدام هذه الدورات في أي نشاط غير مشروع أو ضار.</strong>
+                            </p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+   
+        <div id="contact" class="contact">
+            <div class="section secondary-section" >
+                <div class="container" >
+                    <div class="title" >
+                        <img src="images/FF.png" style="width: 250px; margin-top:-70px;">
+                        <h1 style="color: #e4af00;"> تواصل مع فريق المنصة </h1>
+                        <p style="color: #ffffff;">   
+                             !  لأي استفسار أو استشارة حول الكورسات المتاحة أو المنصة، لا تتردد في التواصل مع مدير المنصة. نحن هنا لخدمتك
+                        </p>
+                    </div>
+                </div>
+               
+                <div class="container">
+                    <div class="span9 center contact-info">
+                        <p> 
+                            يمكنك استلام الكورس عبر الايميل الخاص بك بعد الاشتراك والدفع خارج المنصة.
+                        </p>
+                        <p class="info-mail" style="color: #ffffff;">
+                            للستفسار  والمساعدة  تواصل مع البوت الخاص بالمنصة.
+                        </p>
+                        
+                        <div class="title" id="bot">
+                            <h3 style="color: #ffffff;"> SYRIA </h3>
+                        </div>
+
+
+                        <!-- bot -->
+
+
+
+
+
+
+
+                     <!-- زر التشغيل مع الشعار داخل غلاف -->
+    <div id="startBotWrapper">
+           
+        <a href="#bot"><i id="startBotBtn" class="fa fa-comment" style="font-size:30px;"></i></a>
+
+        <span id="messageIndicator" class="message-indicator">1</span> <!-- إشعار الرسائل الجديدة -->
+    </div>
+   
+    <!-- واجهة البوت -->
+    <div id="chatBox" class="chat-box">
+        <!-- زر الإغلاق (×) -->
+        <i id="closeBotBtn" class="fa fa-times" style="font-size:25px;"></i>
+
+        <div id="chatOutput" class="chat-output">
+            <p>مرحباً! كيف يمكنني مساعدتك؟</p>
+        </div>
+
+        <div class="buttons-container">
+            <button class="botButton">من أنت؟</button>
+            <button class="botButton">ماذا يمكنك أن تفعل؟</button>
+            <button class="botButton">ما هو الكورس؟</button>    
+            <button class="botButton">ماهيا الكورسات في المنصة؟</button>
+            <button class="botButton">هل أستطيع الدفع الآن؟</button>
+            <button class="botButton">كيف يمكنني التواصل مع الدعم؟</button>
+            <button class="botButton">لم افهم شيء ساعدني؟ </button>
+        </div>
+    </div>
+
+
+
+                        <!-- exit bot -->      
+                    </div>
+                    <div class="row-fluid centered" id="cen">
+                        <ul class="social">
+
+                            <li>
+                                <a href="https://www.instagram.com/oday56789/profilecard/?igsh=MXdiYTFiNnRidHQ1Nw==" class="a1">
+                                    <i class="fab fa-instagram"></i>     
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100040869153147&mibextid=ZbWKwL" class="a2">
+
+                                    <i class="fab fa-facebook"></i>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://whatsapp.com/channel/0029VajXdVgB4hdaL22VQO0U" class="a3">
+
+                                    <i class="fab fa-whatsapp"></i>
+
+                                </a>
+                            </li>
+                            <li id="tele">
+                                <a href="@Oday_Cyber" class="">
+
+                                    <i class="fab fa-telegram-plane"></i>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section edn -->
+        <!-- Footer section start -->
+        <div class="footer" style="background-color: #17002c;">
+            <p>&copy; 2025 كل الحقوق محفوظة </p>
+        </div>
+        <!-- Footer section end -->
+        <!-- ScrollUp button start -->
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+        <!-- Include javascript -->
+        
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        <!-- Load google maps api and call initializeMap function defined in app.js -->
+        <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/app.js"></script>
+
+
+        
+        <Script>
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            });
+
+         
+
+                window.onload = function() {
+                document.body.style.display = 'block';
+            };
+
+
+
+
+    
+
+
+
+                    // التحقق مما إذا كان المستخدم قد وافق بالفعل على الشروط خلال الجلسة الحالية
+            if (!sessionStorage.getItem("acceptedTerms")) {
+                // عرض النافذة إذا لم يقبل المستخدم الشروط
+                document.getElementById("warning-popup").style.display = "flex";
+            }
+
+            // التعامل مع الضغط على زر "موافق"
+            document.getElementById("accept-btn").addEventListener("click", function() {
+                // تخزين الموافقة في sessionStorage
+                sessionStorage.setItem("acceptedTerms", "true");
+                
+                // إخفاء النافذة
+                document.getElementById("warning-popup").style.display = "none";
+            });
+
+
+
+
+           // وظيفة تظهر النص حرفًا حرفًا
+        function typeWriter(element, text, i, callback) {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);  // إضافة حرف إلى النص
+                i++;
+                setTimeout(function() {
+                    typeWriter(element, text, i, callback);  // استدعاء الوظيفة مرة أخرى لكتابة الحرف التالي
+                }, 80);  // التأخير بين الحروف (80 ميلي ثانية)
+            } else if (callback) {
+                callback();  // عند الانتهاء من الكتابة
+            }
+        }
+
+        // إعداد الـ Intersection Observer
+        const testimonyElement = document.getElementById('testimony');
+        const textContent = testimonyElement.textContent;  // النص الذي سيتم كتابته
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // عندما يصل العنصر إلى الشاشة، يبدأ التأثير
+                    testimonyElement.style.opacity = 1;  // يظهر النص تدريجيًا
+                    testimonyElement.innerHTML = '';  // تنظيف النص قبل بدء الكتابة
+                    typeWriter(testimonyElement, textContent, 0);  // تشغيل التأثير
+                    observer.unobserve(testimonyElement);  // إيقاف المراقبة بعد ظهور النص
+                }
+            });
+        }, { threshold: 0.5 });  // يبدأ التأثير عندما يظهر النص بنسبة 50% من الشاشة
+
+        // بدء المراقبة على العنصر
+        observer.observe(testimonyElement);
+        // بدء المراقبة
+        // إظهار نافذة التشويش
+ 
+
+
+
+        function showOverlay() {
+            document.getElementById('overlay').style.display = 'flex'; // عرض الطبقة
+        }
+
+        // إغلاق نافذة التشويش
+        function closeOverlay() {
+            document.getElementById('overlay').style.display = 'none'; // إخفاء الطبقة
+        }
+
+        // تعطيل الأزرار عدا مفاتيح الأسهم
+        document.addEventListener("keydown", function(event) {
+            // التحقق من أن المفتاح ليس من مفاتيح الأسهم
+            if (event.key !== "ArrowUp" && event.key !== "ArrowDown" && event.key !== "ArrowLeft" && event.key !== "ArrowRight") {
+                // منع الوظيفة الافتراضية لجميع المفاتيح الأخرى
+                event.preventDefault();
+                
+                // إظهار نافذة التشويش
+                showOverlay();
+            }
+        });
+
+
+
+        // boot
+
+ 
+        document.addEventListener('DOMContentLoaded', function () {
+            const startBotBtn = document.getElementById("startBotBtn");
+            const chatBox = document.getElementById("chatBox");
+            const chatOutput = document.getElementById("chatOutput");
+            const closeBotBtn = document.getElementById("closeBotBtn");
+            const messageIndicator = document.getElementById("messageIndicator");
+
+            // عندما يضغط المستخدم على زر "تشغيل البوت"
+            startBotBtn.addEventListener("click", function() {
+                chatBox.style.display = "block"; // إظهار واجهة البوت
+                startBotBtn.style.display = "none"; // إخفاء زر "تشغيل البوت"
+                messageIndicator.style.display = "none"; // إخفاء دائرة الرسائل الجديدة عند فتح البوت
+            });
+
+            // دالة لكتابة النص حرفًا حرفًا
+            function typeWriter(text, element, speed = 90) {
+                let i = 0;
+                element.innerHTML = ''; // تنظيف النص الحالي في العنصر
+                const interval = setInterval(function() {
+                    if (i < text.length) {
+                        element.innerHTML += text.charAt(i); // إضافة الحرف التالي
+                        i++;
+                    } else {
+                        clearInterval(interval); // إيقاف الكتابة بعد انتهاء النص
+                    }
+                }, speed);
+            }
+
+            // دالة لعرض رد البوت بناءً على إجابة المستخدم
+            function handleUserResponse(question) {
+                let response = "";
+
+                switch (question) {
+                    case 'من أنت؟':
+                        response = "أنا بوت المنصة برمجني عدي كي أساعدك في الإجابة على استفساراتك!";
+                        break;
+                    case 'ماذا يمكنك أن تفعل؟':
+                        response = "يمكنني مساعدتك في معرفة تفاصيل الكورسات والدفع والدعم الفني.";
+                        break;
+                    case 'ما هو الكورس؟':
+                        response = "الكورس هو محتوى تدريبي متاح على المنصة. يمكنك الاشتراك والدفع للحصول على وصول إلى المواد.";
+                        break;
+                    case 'ماهيا الكورسات في المنصة؟':
+                        response = " هناك عديد من الكورسات الأمن السيبراني بخصوص انشاء ادواتك بنفسك للختراق و استغلال الثغرات ونشاء الفيروسات الخبيثة و الحماية من الختراق ستتعلم المهارات عبر لغة البرمجة بايثون للستفسار اكثر تواصل مع الفريق في المنصة ";
+                        break;
+                    case 'هل أستطيع الدفع الآن؟':
+                        response = "نعم، يمكنك الدفع الآن عبر طرق الدفع المتاحة لدينا.";
+                        break;
+                    case 'كيف يمكنني التواصل مع الدعم؟':
+                        response = "يمكنك التواصل مع الدعم عبر الحسابات المتوفره في المنصة.";
+                        break;
+                    case 'لم افهم شيء ساعدني؟':
+                        response = " ههههه😂 لا تزعل انا هنا  حسناً ساقوم برسال لك حساب فريق الدعم  @Oday_Cyber";  
+                        break;
+                    default:
+                        response = "عذرًا، لم أفهم سؤالك. يرجى اختيار أحد الأسئلة.";
+                        break;
+                }
+
+                // عرض الرد في واجهة البوت حرفًا حرفًا
+                typeWriter(response, chatOutput, 115); // الكتابة مع التأخير 100 ملي ثانية بين الحروف
+            }
+
+            // ربط الأزرار بتنفيذ الرد
+            const buttons = document.querySelectorAll('.botButton');
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function(e) {
+                    handleUserResponse(e.target.innerText);
+                });
+            });
+
+            // إغلاق البوت عند الضغط على زر الإغلاق
+            closeBotBtn.addEventListener('click', function() {
+                chatBox.style.display = "none"; // إخفاء واجهة البوت
+                startBotBtn.style.display = "block"; // إعادة عرض زر تشغيل البوت
+                messageIndicator.style.display = "block"; // إظهار دائرة الرسائل الجديدة عند إغلاق البوت
+            });
+
+            // محاكاة رسالة جديدة بعد مدة
+            setTimeout(function() {
+                messageIndicator.style.display = "block"; // إظهار دائرة الرسالة الجديدة بعد ثواني
+            }, 2000); // بعد 2 ثانية تظهر دائرة الرسالة الجديدة
+        });
+
+
+
+        // ########################
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const confettiContainer = document.querySelector('.confetti');
+            const numberOfConfetti =100; // عدد الورد المتطاير
+
+            // إنشاء العناصر الخاصة بالتأثير (الورد)
+            for (let i = 0; i < numberOfConfetti; i++) {
+                let confetti = document.createElement('div');
+                confetti.classList.add('confetti-item');
+                confettiContainer.appendChild(confetti);
+
+                // تحديد مواقع عشوائية لعناصر الورد
+                confetti.style.top = `${Math.random() * 100}%`;
+                confetti.style.left = `${Math.random() * 100}%`;
+
+                // إضافة التأثير العشوائي
+                confetti.style.animationDuration = `${Math.random() * 3 + 2}s`; // فترة الأنيميشن عشوائية
+                confetti.style.animationDelay = `${Math.random() * 2}s`; // تأخير عشوائي
+
+                // إضافة ألوان عشوائية للأزهار
+                const colors = ['pink', 'red', 'purple', 'yellow', 'blue'];
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            }
+        });
+
+     
+  
+        </script>
+    </body>
+</html>
