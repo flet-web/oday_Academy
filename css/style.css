@@ -1232,7 +1232,9 @@ p {
 
 .confetti {
     position: absolute;
-    width:100%;
+    width:50%;
+    margin: auto;    
+    text-align: center;
     top: 0;
     left: 0;
     right: 0;
